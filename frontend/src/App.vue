@@ -13,13 +13,13 @@ import img3 from '@/assets/images/12345.jpg';
 	<header>
 		<div id="header-container">
 			<div id="header-nav-bar">
-				<a href="#" class="nav-link">
+				<a href="#features" class="nav-link">
 					<span>For whom</span>
 				</a>
-				<a href="#" class="nav-link">
+				<a href="#industries" class="nav-link">
 					<span>Features</span>
 				</a>
-				<a href="#" class="nav-link">
+				<a href="#FAQ" class="nav-link">
 					<span>FAQ</span>
 				</a>
 			</div>
