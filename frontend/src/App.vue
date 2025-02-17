@@ -6,6 +6,10 @@ import FaqSection from '@/components/faq-section.vue';
 import img1 from '@/assets/images/123.jpg';
 import img2 from '@/assets/images/1234.jpg';
 import img3 from '@/assets/images/12345.jpg';
+
+const scrollToSection = (target) => {
+	document.getElementById(target)?.scrollIntoView({ behavior: 'smooth' });
+};
 </script>
 
 <template>
@@ -13,13 +17,13 @@ import img3 from '@/assets/images/12345.jpg';
 	<header>
 		<div id="header-container">
 			<div id="header-nav-bar">
-				<a href="#features" class="nav-link">
+				<a @click="scrollToSection('features')" class="nav-link">
 					<span>For whom</span>
 				</a>
-				<a href="#industries" class="nav-link">
+				<a @click="scrollToSection('industries')" class="nav-link">
 					<span>Features</span>
 				</a>
-				<a href="#FAQ" class="nav-link">
+				<a @click="scrollToSection('FAQ')" class="nav-link">
 					<span>FAQ</span>
 				</a>
 			</div>

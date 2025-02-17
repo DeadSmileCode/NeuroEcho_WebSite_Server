@@ -157,6 +157,11 @@ header {
 	line-height: 20px;
 
 	margin-right:30px;
+/*	cursor: point;*/
+}
+
+.nav-link:hover {
+	cursor: pointer;
 }
 
 #header-logo {
