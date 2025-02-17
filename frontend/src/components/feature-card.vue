@@ -1,5 +1,11 @@
 <script setup>
 defineProps(["header" , "text" , "img", "reverse"]);
+
+import { computed } from 'vue';
+
+const imgSrc = computed(() => {
+	return new URL(`../assets/images/${props.img}`, import.meta.url).href;
+});
 </script>
 
 <template>

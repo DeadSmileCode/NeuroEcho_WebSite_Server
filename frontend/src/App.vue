@@ -3,6 +3,9 @@ import FeatureCard from '@/components/feature-card.vue';
 import IndustrySection from '@/components/industry-section.vue';
 import FaqSection from '@/components/faq-section.vue';
 
+import img1 from '@/assets/images/123.jpg';
+import img2 from '@/assets/images/1234.jpg';
+import img3 from '@/assets/images/12345.jpg';
 </script>
 
 <template>
@@ -52,11 +55,11 @@ import FaqSection from '@/components/faq-section.vue';
 
 	<section id="features" style="background: var(--extra-1);">
 
-		<FeatureCard header="For patients" text="Instead of undergoing multiple lengthy evaluations, users simply take a quick vocal test. The AI efficiently analyzes responses and subtle non-verbal signs like hesitations or stumbles, offering detailed insights without the need for extensive in-person assessments." img="src/assets/images/123.jpg"/>
+		<FeatureCard header="For patients" text="Instead of undergoing multiple lengthy evaluations, users simply take a quick vocal test. The AI efficiently analyzes responses and subtle non-verbal signs like hesitations or stumbles, offering detailed insights without the need for extensive in-person assessments." :img="img1"/>
 
-		<FeatureCard header="For doctors" text="NeuroEcho streamlines the diagnostic process by consolidating results from multiple AI models into a comprehensive score. This reduces the need for manual analysis and enables doctors to focus on creating and adjusting treatment plans, not deciphering raw data." img="src/assets/images/1234.jpg" reverse="true" />
+		<FeatureCard header="For doctors" text="NeuroEcho streamlines the diagnostic process by consolidating results from multiple AI models into a comprehensive score. This reduces the need for manual analysis and enables doctors to focus on creating and adjusting treatment plans, not deciphering raw data." :img="img2" reverse="true" />
 
-		<FeatureCard header="Simplifying Care for Patients and Doctors" text="NeuroEcho streamlines testing for patients and delivers clear, actionable results to doctors, ensuring faster diagnoses and better dementia management." img="src/assets/images/12345.jpg"/>
+		<FeatureCard header="Simplifying Care for Patients and Doctors" text="NeuroEcho streamlines testing for patients and delivers clear, actionable results to doctors, ensuring faster diagnoses and better dementia management." :img="img3"/>
 
 	</section>
 
