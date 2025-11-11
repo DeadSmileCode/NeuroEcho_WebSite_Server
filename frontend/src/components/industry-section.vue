@@ -135,4 +135,31 @@
 
 
 
+
+
+
+
+@media (max-width: 1000px) {
+
+
+
+#card-container {
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: auto;
+	grid-auto-columns: 1fr;
+	grid-row-gap: 16px;
+	grid-column-gap: 16px;
+
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+
+	margin-top: 60px;
+}
+
+
+
+}
+
+
+
 </style>

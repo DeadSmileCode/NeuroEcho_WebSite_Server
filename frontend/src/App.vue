@@ -33,7 +33,7 @@ const scrollToSection = (target) => {
 			</div>
 
 			<div id="header-outlinks">
-				<a href="platform.neuroecho.kz/login" class="button">Go to use</a>
+				<a href="#" class="button non-active">Comming Soon</a>
 			</div>
 		</div>
 	</header>
@@ -52,7 +52,7 @@ const scrollToSection = (target) => {
 				</p>
 			</div>
 			<div class="hero-add-section">
-				<a href="platform.neuroecho.kz/login" class="button" id="hero-btn">Go to use</a>
+				<a href="#" class="button" id="hero-btn">Comming Soon</a>
 			</div>
 		</div>
 	</section>
