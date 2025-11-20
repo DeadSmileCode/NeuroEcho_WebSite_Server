@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Myths and Misconceptions About Dementia",
+        "date": "October 28, 2024",
+        "author": "Arum Nurlankyzy",
+        "filename": "article-1.md"
+    },
+    {
+        "id": 2,
+        "title": "How What You Eat Shapes Your Mind: The MIND Diet and Alzheimer’s Prevention",
+        "date": "November 2, 2024",
+        "author": "Elina Kogai",
+        "filename": "article-2.md"
+    },
+    {
+        "id": 3,
+        "title": "Four Everyday Challenges in Dementia Care and How to Handle Them",
+        "date": "November 3, 2024",
+        "author": "Adiskhan Aldebekov",
+        "filename": "article-3.md"
+    }
+]

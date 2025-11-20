@@ -7,4 +7,4 @@ const app = express();
 app.use(history());
 app.use(express.static(path.join(__dirname, 'dist')));
 
-app.listen(3000, () => {});
+app.listen(3000, () => { });
