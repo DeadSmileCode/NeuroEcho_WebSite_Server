@@ -58,6 +58,12 @@ const scrollToSection = (target) => {
 			<a @click="scrollToSection('features')">Features</a>
 			<a @click="scrollToSection('faq')">FAQ</a>
 			<router-link to="/articles">Articles</router-link>
+			<div class="mobile-socials">
+				<a class="social" href="https://www.instagram.com/neuroecho_">
+					<IconInstagram color="black"/>
+				</a>
+				<a class="button not-work poppins">Soon . . .</a>
+			</div>
 		</div>
 
 	</header>
